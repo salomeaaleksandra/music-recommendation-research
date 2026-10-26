@@ -1,0 +1,70 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and audio
+fma_metadata/
+data/
+datasets/
+AudioFiles/
+SegmentationOutputFiles/
+segmented_audio*/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.aiff
+*.aif
+*.wma
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Generated outputs
+_plots*/
+plots/
+outputs/
+results/
+artifacts/
+models/
+metrics_chi2_multiple_feature_sets.csv
+scores*.csv
+summed_places*.csv
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.log
+
+# Jupyter and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+envs/
+.python-version
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
